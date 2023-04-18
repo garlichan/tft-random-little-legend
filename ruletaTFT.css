@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image:url("./imagenes/1284502.jpg");
+}
+
+
+#ctn-fondo{
+    height: 100vh;
+    background-image: url("./imagenes/tft-set-8-meta-image.jpg");
+    background-size: cover;
+    justify-content: space-evenly;
+}
+
+#principal{
+    height: 100vh;
+    flex-basis: 40%;
+}
+
+#ctn-escondido{
+    flex-basis: 50%;
+}
+
+#ctn-escondido img{
+    padding: 2%;
+}
+
+#nombre-es{
+    color: #E67E22;
+}
+
+#nombre-en{
+    color: #3498DB;
+}
+#nombre-neutro{
+    color: #8E44AD;
+}
